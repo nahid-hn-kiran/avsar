@@ -1,5 +1,12 @@
-/* Global Styles  */
-body {
+/*****************
+ Global Styles
+******************/
+body,
+div,
+h1,
+h2,
+h3,
+p {
     margin: 0;
     padding: 0;
 }
@@ -22,7 +29,9 @@ ul li {
     list-style: none;
 }
 
-/* Header Styles  */
+/*****************
+ Header Styles 
+******************/
 header {
     padding: 10px 20px;
 }
@@ -37,7 +46,9 @@ header {
     width: 100%;
 }
 
-/* Menu Styles  */
+/*****************
+ Menu Styles
+******************/
 
 .menu {
     display: flex;
@@ -78,7 +89,9 @@ header {
     text-align: center;
 }
 
-/* Mobile Menu Styles  */
+/*****************
+ Header StylesMobile Menu Styles
+******************/
 .mobile-menu {
     display: none;
     position: relative;
@@ -116,7 +129,35 @@ header {
     font-style: normal;
 }
 
-/* Responsive Styles  */
+/*****************
+ Hero Section Styles
+******************/
+#hero {
+    height: 100vh;
+    background-image: url(../img/hero.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 82px;
+    font-family: "Barlow", sans-serif;
+    color: #FFFFFF;
+}
+
+/*****************
+ Responsive Styles
+******************/
 
 @media (max-width: 1280px) {
     .container {}
